@@ -1,0 +1,16 @@
+
+<div>
+  <button mat-mini-fab (click)="diminui()">-</button> <!--  Aqui estamos "Ouvindo o Click do botão
+                                                            que recebe a função diminui(), sempre que o 
+                                                            usuario clicar ele irá retirar 1 numero da 
+                                                            variavel valorInicial" -->
+  <mat-form-field appearance="fill">
+
+    <p>{{valorInicial}}</p>
+
+  </mat-form-field>
+  <button mat-mini-fab (click)="soma()">+</button> <!--  Aqui estamos "Ouvindo o Click do botão
+                                                        que recebe a função soma(), sempre que o 
+                                                        usuario clicar ele irá acrecentar 1 numero da 
+                                                        variavel valorInicial" -->
+</div>
